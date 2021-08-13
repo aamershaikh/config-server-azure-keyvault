@@ -10,8 +10,3 @@ spring:
  profiles: keyvault
  username: ${POSTGRES-DATABASE-NAME}
  password: ${POSTGRES-DATABASE-PASSWORD}
-
-azure
- keyvault:
-  enabled: true
-  uri: https://as-keyvaultdemo.vault.azure.net/
