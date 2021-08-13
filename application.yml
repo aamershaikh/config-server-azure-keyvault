@@ -5,3 +5,13 @@ db:
  connection: connection-string-here
  host: 127.0.0.1
  port: 1200
+
+spring:
+ profiles: keyvault
+ username: ${POSTGRES-DATABASE-NAME}
+ password: ${POSTGRES-DATABASE-PASSWORD}
+
+azure
+ keyvault:
+  enabled: true
+  uri: https://as-keyvaultdemo.vault.azure.net/
