@@ -1,7 +1,5 @@
 my:
  greeting:Hello World from config server
- list:
-  values:One, Two, Three
 
 db:
  connection: connection-string-here
