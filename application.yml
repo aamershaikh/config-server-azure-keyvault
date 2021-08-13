@@ -1,7 +1,7 @@
 my:
- greeting:Hello World from config server
+ greeting: Hello World from config server
 
 db:
  connection: connection-string-here
- host:127.0.0.1
- port:1200
+ host: 127.0.0.1
+ port: 1200
