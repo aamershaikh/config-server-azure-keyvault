@@ -1,4 +1,6 @@
 **Sample configuration YML - to be commited in git and read by the config server**
+
+
 my:
  greeting: Hello World
 
